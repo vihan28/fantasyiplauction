@@ -1,0 +1,13 @@
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+frontend/dist/
+backend/.env
+
+# Local scratch/prototype files not used by the current app
+/data/
+/public/
+/utils/
+/server.js
+/fantasy.test.js
+/test-server,js

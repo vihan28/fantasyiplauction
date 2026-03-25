@@ -1,0 +1,1994 @@
+[
+  {
+    "id": "ruturaj-gaikwad-csk",
+    "name": "Ruturaj Gaikwad",
+    "basePrice": 50000000,
+    "tier": "A",
+    "role": "Batter",
+    "team": "CSK"
+  },
+  {
+    "id": "sanju-samson-csk",
+    "name": "Sanju Samson",
+    "basePrice": 50000000,
+    "tier": "A",
+    "role": "Wicketkeeper",
+    "team": "CSK"
+  },
+  {
+    "id": "axar-patel-dc",
+    "name": "Axar Patel",
+    "basePrice": 50000000,
+    "tier": "A",
+    "role": "All-Rounder",
+    "team": "DC"
+  },
+  {
+    "id": "harry-brook-dc",
+    "name": "Harry Brook",
+    "basePrice": 50000000,
+    "tier": "A",
+    "role": "Batter",
+    "team": "DC"
+  },
+  {
+    "id": "kl-rahul-dc",
+    "name": "KL Rahul",
+    "basePrice": 50000000,
+    "tier": "A",
+    "role": "Wicketkeeper",
+    "team": "DC"
+  },
+  {
+    "id": "kuldeep-yadav-dc",
+    "name": "Kuldeep Yadav",
+    "basePrice": 50000000,
+    "tier": "A",
+    "role": "Bowler",
+    "team": "DC"
+  },
+  {
+    "id": "mitchell-starc-dc",
+    "name": "Mitchell Starc",
+    "basePrice": 50000000,
+    "tier": "A",
+    "role": "Bowler",
+    "team": "DC"
+  },
+  {
+    "id": "jos-buttler-gt",
+    "name": "Jos Buttler",
+    "basePrice": 50000000,
+    "tier": "A",
+    "role": "Wicketkeeper",
+    "team": "GT"
+  },
+  {
+    "id": "kagiso-rabada-gt",
+    "name": "Kagiso Rabada",
+    "basePrice": 50000000,
+    "tier": "A",
+    "role": "Bowler",
+    "team": "GT"
+  },
+  {
+    "id": "mohammed-siraj-gt",
+    "name": "Mohammed Siraj",
+    "basePrice": 50000000,
+    "tier": "A",
+    "role": "Bowler",
+    "team": "GT"
+  },
+  {
+    "id": "rashid-khan-gt",
+    "name": "Rashid Khan",
+    "basePrice": 50000000,
+    "tier": "A",
+    "role": "Bowler",
+    "team": "GT"
+  },
+  {
+    "id": "sai-sudharsan-gt",
+    "name": "Sai Sudharsan",
+    "basePrice": 50000000,
+    "tier": "A",
+    "role": "Batter",
+    "team": "GT"
+  },
+  {
+    "id": "shubman-gill-gt",
+    "name": "Shubman Gill",
+    "basePrice": 50000000,
+    "tier": "A",
+    "role": "Batter",
+    "team": "GT"
+  },
+  {
+    "id": "cameron-green-kkr",
+    "name": "Cameron Green",
+    "basePrice": 50000000,
+    "tier": "A",
+    "role": "All-Rounder",
+    "team": "KKR"
+  },
+  {
+    "id": "matheesha-pathirana-kkr",
+    "name": "Matheesha Pathirana",
+    "basePrice": 50000000,
+    "tier": "A",
+    "role": "Bowler",
+    "team": "KKR"
+  },
+  {
+    "id": "rinku-singh-kkr",
+    "name": "Rinku Singh",
+    "basePrice": 50000000,
+    "tier": "A",
+    "role": "Batter",
+    "team": "KKR"
+  },
+  {
+    "id": "sunil-narine-kkr",
+    "name": "Sunil Narine",
+    "basePrice": 50000000,
+    "tier": "A",
+    "role": "All-Rounder",
+    "team": "KKR"
+  },
+  {
+    "id": "varun-chakaravarthy-kkr",
+    "name": "Varun Chakaravarthy",
+    "basePrice": 50000000,
+    "tier": "A",
+    "role": "Bowler",
+    "team": "KKR"
+  },
+  {
+    "id": "mitchell-marsh-lsg",
+    "name": "Mitchell Marsh",
+    "basePrice": 50000000,
+    "tier": "A",
+    "role": "All-Rounder",
+    "team": "LSG"
+  },
+  {
+    "id": "mohammed-shami-lsg",
+    "name": "Mohammed Shami",
+    "basePrice": 50000000,
+    "tier": "A",
+    "role": "Bowler",
+    "team": "LSG"
+  },
+  {
+    "id": "nicholas-pooran-lsg",
+    "name": "Nicholas Pooran",
+    "basePrice": 50000000,
+    "tier": "A",
+    "role": "Wicketkeeper",
+    "team": "LSG"
+  },
+  {
+    "id": "rishabh-pant-lsg",
+    "name": "Rishabh Pant",
+    "basePrice": 50000000,
+    "tier": "A",
+    "role": "Wicketkeeper",
+    "team": "LSG"
+  },
+  {
+    "id": "wanindu-hasaranga-lsg",
+    "name": "Wanindu Hasaranga",
+    "basePrice": 50000000,
+    "tier": "A",
+    "role": "All-Rounder",
+    "team": "LSG"
+  },
+  {
+    "id": "hardik-pandya-mi",
+    "name": "Hardik Pandya",
+    "basePrice": 50000000,
+    "tier": "A",
+    "role": "All-Rounder",
+    "team": "MI"
+  },
+  {
+    "id": "jasprit-bumrah-mi",
+    "name": "Jasprit Bumrah",
+    "basePrice": 50000000,
+    "tier": "A",
+    "role": "Bowler",
+    "team": "MI"
+  },
+  {
+    "id": "quinton-de-kock-mi",
+    "name": "Quinton de Kock",
+    "basePrice": 50000000,
+    "tier": "A",
+    "role": "Wicketkeeper",
+    "team": "MI"
+  },
+  {
+    "id": "rohit-sharma-mi",
+    "name": "Rohit Sharma",
+    "basePrice": 50000000,
+    "tier": "A",
+    "role": "Batter",
+    "team": "MI"
+  },
+  {
+    "id": "suryakumar-yadav-mi",
+    "name": "Suryakumar Yadav",
+    "basePrice": 50000000,
+    "tier": "A",
+    "role": "Batter",
+    "team": "MI"
+  },
+  {
+    "id": "tilak-varma-mi",
+    "name": "Tilak Varma",
+    "basePrice": 50000000,
+    "tier": "A",
+    "role": "Batter",
+    "team": "MI"
+  },
+  {
+    "id": "trent-boult-mi",
+    "name": "Trent Boult",
+    "basePrice": 50000000,
+    "tier": "A",
+    "role": "Bowler",
+    "team": "MI"
+  },
+  {
+    "id": "arshdeep-singh-pbks",
+    "name": "Arshdeep Singh",
+    "basePrice": 50000000,
+    "tier": "A",
+    "role": "Bowler",
+    "team": "PBKS"
+  },
+  {
+    "id": "marcus-stoinis-pbks",
+    "name": "Marcus Stoinis",
+    "basePrice": 50000000,
+    "tier": "A",
+    "role": "All-Rounder",
+    "team": "PBKS"
+  },
+  {
+    "id": "shreyas-iyer-pbks",
+    "name": "Shreyas Iyer",
+    "basePrice": 50000000,
+    "tier": "A",
+    "role": "Batter",
+    "team": "PBKS"
+  },
+  {
+    "id": "adam-zampa-rcb",
+    "name": "Adam Zampa",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "Bowler",
+    "team": "RCB"
+  },
+  {
+    "id": "bhuvneshwar-kumar-rcb",
+    "name": "Bhuvneshwar Kumar",
+    "basePrice": 50000000,
+    "tier": "A",
+    "role": "Bowler",
+    "team": "RCB"
+  },
+  {
+    "id": "josh-hazlewood-rcb",
+    "name": "Josh Hazlewood",
+    "basePrice": 50000000,
+    "tier": "A",
+    "role": "Bowler",
+    "team": "RCB"
+  },
+  {
+    "id": "liam-livingstone-rcb",
+    "name": "Liam Livingstone",
+    "basePrice": 50000000,
+    "tier": "A",
+    "role": "All-Rounder",
+    "team": "RCB"
+  },
+  {
+    "id": "phil-salt-rcb",
+    "name": "Phil Salt",
+    "basePrice": 50000000,
+    "tier": "A",
+    "role": "Wicketkeeper",
+    "team": "RCB"
+  },
+  {
+    "id": "virat-kohli-rcb",
+    "name": "Virat Kohli",
+    "basePrice": 50000000,
+    "tier": "A",
+    "role": "Batter",
+    "team": "RCB"
+  },
+  {
+    "id": "jofra-archer-rr",
+    "name": "Jofra Archer",
+    "basePrice": 50000000,
+    "tier": "A",
+    "role": "Bowler",
+    "team": "RR"
+  },
+  {
+    "id": "ravindra-jadeja-rr",
+    "name": "Ravindra Jadeja",
+    "basePrice": 50000000,
+    "tier": "A",
+    "role": "All-Rounder",
+    "team": "RR"
+  },
+  {
+    "id": "yashasvi-jaiswal-rr",
+    "name": "Yashasvi Jaiswal",
+    "basePrice": 50000000,
+    "tier": "A",
+    "role": "Batter",
+    "team": "RR"
+  },
+  {
+    "id": "abhishek-sharma-srh",
+    "name": "Abhishek Sharma",
+    "basePrice": 50000000,
+    "tier": "A",
+    "role": "All-Rounder",
+    "team": "SRH"
+  },
+  {
+    "id": "heinrich-klaasen-srh",
+    "name": "Heinrich Klaasen",
+    "basePrice": 50000000,
+    "tier": "A",
+    "role": "Wicketkeeper",
+    "team": "SRH"
+  },
+  {
+    "id": "liam-livingstone-srh",
+    "name": "Liam Livingstone",
+    "basePrice": 50000000,
+    "tier": "A",
+    "role": "All-Rounder",
+    "team": "SRH"
+  },
+  {
+    "id": "pat-cummins-srh",
+    "name": "Pat Cummins",
+    "basePrice": 50000000,
+    "tier": "A",
+    "role": "All-Rounder",
+    "team": "SRH"
+  },
+  {
+    "id": "travis-head-srh",
+    "name": "Travis Head",
+    "basePrice": 50000000,
+    "tier": "A",
+    "role": "Batter",
+    "team": "SRH"
+  },
+  {
+    "id": "akeal-hosein-csk",
+    "name": "Akeal Hosein",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "All-Rounder",
+    "team": "CSK"
+  },
+  {
+    "id": "aman-khan-csk",
+    "name": "Aman Khan",
+    "basePrice": 10000000,
+    "tier": "C",
+    "role": "All-Rounder",
+    "team": "CSK"
+  },
+  {
+    "id": "anshul-kamboj-csk",
+    "name": "Anshul Kamboj",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "Bowler",
+    "team": "CSK"
+  },
+  {
+    "id": "ayush-mhatre-csk",
+    "name": "Ayush Mhatre",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "Batter",
+    "team": "CSK"
+  },
+  {
+    "id": "dewald-brevis-csk",
+    "name": "Dewald Brevis",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "Batter",
+    "team": "CSK"
+  },
+  {
+    "id": "gurjapneet-singh-csk",
+    "name": "Gurjapneet Singh",
+    "basePrice": 10000000,
+    "tier": "C",
+    "role": "Bowler",
+    "team": "CSK"
+  },
+  {
+    "id": "jamie-overton-csk",
+    "name": "Jamie Overton",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "All-Rounder",
+    "team": "CSK"
+  },
+  {
+    "id": "kartik-sharma-csk",
+    "name": "Kartik Sharma",
+    "basePrice": 10000000,
+    "tier": "C",
+    "role": "Wicketkeeper",
+    "team": "CSK"
+  },
+  {
+    "id": "khaleel-ahmed-csk",
+    "name": "Khaleel Ahmed",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "Bowler",
+    "team": "CSK"
+  },
+  {
+    "id": "ms-dhoni-csk",
+    "name": "MS Dhoni",
+    "basePrice": 50000000,
+    "tier": "A",
+    "role": "Wicketkeeper",
+    "team": "CSK"
+  },
+  {
+    "id": "matt-henry-csk",
+    "name": "Matt Henry",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "Bowler",
+    "team": "CSK"
+  },
+  {
+    "id": "matthew-short-csk",
+    "name": "Matthew Short",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "All-Rounder",
+    "team": "CSK"
+  },
+  {
+    "id": "mukesh-choudhary-csk",
+    "name": "Mukesh Choudhary",
+    "basePrice": 10000000,
+    "tier": "C",
+    "role": "Bowler",
+    "team": "CSK"
+  },
+  {
+    "id": "nathan-ellis-csk",
+    "name": "Nathan Ellis",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "Bowler",
+    "team": "CSK"
+  },
+  {
+    "id": "noor-ahmad-csk",
+    "name": "Noor Ahmad",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "Bowler",
+    "team": "CSK"
+  },
+  {
+    "id": "prashant-veer-csk",
+    "name": "Prashant Veer",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "All-Rounder",
+    "team": "CSK"
+  },
+  {
+    "id": "rahul-chahar-csk",
+    "name": "Rahul Chahar",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "Bowler",
+    "team": "CSK"
+  },
+  {
+    "id": "ramakrishna-ghosh-csk",
+    "name": "Ramakrishna Ghosh",
+    "basePrice": 10000000,
+    "tier": "C",
+    "role": "All-Rounder",
+    "team": "CSK"
+  },
+  {
+    "id": "sarfaraz-khan-csk",
+    "name": "Sarfaraz Khan",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "Batter",
+    "team": "CSK"
+  },
+  {
+    "id": "shivam-dube-csk",
+    "name": "Shivam Dube",
+    "basePrice": 50000000,
+    "tier": "A",
+    "role": "All-Rounder",
+    "team": "CSK"
+  },
+  {
+    "id": "shreyas-gopal-csk",
+    "name": "Shreyas Gopal",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "Bowler",
+    "team": "CSK"
+  },
+  {
+    "id": "urvil-patel-csk",
+    "name": "Urvil Patel",
+    "basePrice": 10000000,
+    "tier": "C",
+    "role": "Wicketkeeper",
+    "team": "CSK"
+  },
+  {
+    "id": "zakary-foulkes-csk",
+    "name": "Zakary Foulkes",
+    "basePrice": 10000000,
+    "tier": "C",
+    "role": "All-Rounder",
+    "team": "CSK"
+  },
+  {
+    "id": "abishek-porel-dc",
+    "name": "Abishek Porel",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "Wicketkeeper",
+    "team": "DC"
+  },
+  {
+    "id": "ajay-mandal-dc",
+    "name": "Ajay Mandal",
+    "basePrice": 10000000,
+    "tier": "C",
+    "role": "All-Rounder",
+    "team": "DC"
+  },
+  {
+    "id": "ashutosh-sharma-dc",
+    "name": "Ashutosh Sharma",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "Batter",
+    "team": "DC"
+  },
+  {
+    "id": "auqib-dar-dc",
+    "name": "Auqib Dar",
+    "basePrice": 10000000,
+    "tier": "C",
+    "role": "Bowler",
+    "team": "DC"
+  },
+  {
+    "id": "ben-duckett-dc",
+    "name": "Ben Duckett",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "Batter",
+    "team": "DC"
+  },
+  {
+    "id": "david-miller-dc",
+    "name": "David Miller",
+    "basePrice": 50000000,
+    "tier": "A",
+    "role": "Batter",
+    "team": "DC"
+  },
+  {
+    "id": "dushmantha-chameera-dc",
+    "name": "Dushmantha Chameera",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "Bowler",
+    "team": "DC"
+  },
+  {
+    "id": "karun-nair-dc",
+    "name": "Karun Nair",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "Batter",
+    "team": "DC"
+  },
+  {
+    "id": "kyle-jamieson-dc",
+    "name": "Kyle Jamieson",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "All-Rounder",
+    "team": "DC"
+  },
+  {
+    "id": "lungi-ngidi-dc",
+    "name": "Lungi Ngidi",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "Bowler",
+    "team": "DC"
+  },
+  {
+    "id": "madhav-tiwari-dc",
+    "name": "Madhav Tiwari",
+    "basePrice": 10000000,
+    "tier": "C",
+    "role": "All-Rounder",
+    "team": "DC"
+  },
+  {
+    "id": "mukesh-kumar-dc",
+    "name": "Mukesh Kumar",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "Bowler",
+    "team": "DC"
+  },
+  {
+    "id": "pathum-nissanka-dc",
+    "name": "Pathum Nissanka",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "Batter",
+    "team": "DC"
+  },
+  {
+    "id": "prithvi-shaw-dc",
+    "name": "Prithvi Shaw",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "Batter",
+    "team": "DC"
+  },
+  {
+    "id": "sahil-parakh-dc",
+    "name": "Sahil Parakh",
+    "basePrice": 10000000,
+    "tier": "C",
+    "role": "Batter",
+    "team": "DC"
+  },
+  {
+    "id": "sameer-rizvi-dc",
+    "name": "Sameer Rizvi",
+    "basePrice": 10000000,
+    "tier": "C",
+    "role": "Batter",
+    "team": "DC"
+  },
+  {
+    "id": "t-natarajan-dc",
+    "name": "T Natarajan",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "Bowler",
+    "team": "DC"
+  },
+  {
+    "id": "tripurana-vijay-dc",
+    "name": "Tripurana Vijay",
+    "basePrice": 10000000,
+    "tier": "C",
+    "role": "Batter",
+    "team": "DC"
+  },
+  {
+    "id": "tristan-stubbs-dc",
+    "name": "Tristan Stubbs",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "Wicketkeeper",
+    "team": "DC"
+  },
+  {
+    "id": "vipraj-nigam-dc",
+    "name": "Vipraj Nigam",
+    "basePrice": 10000000,
+    "tier": "C",
+    "role": "All-Rounder",
+    "team": "DC"
+  },
+  {
+    "id": "abhinav-manohar-gt",
+    "name": "Abhinav Manohar",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "Batter",
+    "team": "GT"
+  },
+  {
+    "id": "anuj-rawat-gt",
+    "name": "Anuj Rawat",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "Wicketkeeper",
+    "team": "GT"
+  },
+  {
+    "id": "arshad-khan-gt",
+    "name": "Arshad Khan",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "All-Rounder",
+    "team": "GT"
+  },
+  {
+    "id": "darshan-nalkande-gt",
+    "name": "Darshan Nalkande",
+    "basePrice": 10000000,
+    "tier": "C",
+    "role": "Bowler",
+    "team": "GT"
+  },
+  {
+    "id": "glenn-phillips-gt",
+    "name": "Glenn Phillips",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "Wicketkeeper",
+    "team": "GT"
+  },
+  {
+    "id": "jason-holder-gt",
+    "name": "Jason Holder",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "All-Rounder",
+    "team": "GT"
+  },
+  {
+    "id": "jayant-yadav-gt",
+    "name": "Jayant Yadav",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "All-Rounder",
+    "team": "GT"
+  },
+  {
+    "id": "kartik-tyagi-gt",
+    "name": "Kartik Tyagi",
+    "basePrice": 10000000,
+    "tier": "C",
+    "role": "Bowler",
+    "team": "GT"
+  },
+  {
+    "id": "kumar-kushagra-gt",
+    "name": "Kumar Kushagra",
+    "basePrice": 10000000,
+    "tier": "C",
+    "role": "Wicketkeeper",
+    "team": "GT"
+  },
+  {
+    "id": "luke-wood-gt",
+    "name": "Luke Wood",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "Bowler",
+    "team": "GT"
+  },
+  {
+    "id": "manav-suthar-gt",
+    "name": "Manav Suthar",
+    "basePrice": 10000000,
+    "tier": "C",
+    "role": "Bowler",
+    "team": "GT"
+  },
+  {
+    "id": "mohit-sharma-gt",
+    "name": "Mohit Sharma",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "Bowler",
+    "team": "GT"
+  },
+  {
+    "id": "nishant-sindhu-gt",
+    "name": "Nishant Sindhu",
+    "basePrice": 10000000,
+    "tier": "C",
+    "role": "All-Rounder",
+    "team": "GT"
+  },
+  {
+    "id": "rahul-tewatia-gt",
+    "name": "Rahul Tewatia",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "All-Rounder",
+    "team": "GT"
+  },
+  {
+    "id": "sai-kishore-gt",
+    "name": "Sai Kishore",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "Bowler",
+    "team": "GT"
+  },
+  {
+    "id": "shahrukh-khan-gt",
+    "name": "Shahrukh Khan",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "Batter",
+    "team": "GT"
+  },
+  {
+    "id": "sushant-mishra-gt",
+    "name": "Sushant Mishra",
+    "basePrice": 10000000,
+    "tier": "C",
+    "role": "Bowler",
+    "team": "GT"
+  },
+  {
+    "id": "tom-banton-gt",
+    "name": "Tom Banton",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "Wicketkeeper",
+    "team": "GT"
+  },
+  {
+    "id": "washington-sundar-gt",
+    "name": "Washington Sundar",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "All-Rounder",
+    "team": "GT"
+  },
+  {
+    "id": "ajinkya-rahane-kkr",
+    "name": "Ajinkya Rahane",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "Batter",
+    "team": "KKR"
+  },
+  {
+    "id": "angkrish-raghuvanshi-kkr",
+    "name": "Angkrish Raghuvanshi",
+    "basePrice": 50000000,
+    "tier": "A",
+    "role": "Batter",
+    "team": "KKR"
+  },
+  {
+    "id": "anukul-roy-kkr",
+    "name": "Anukul Roy",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "All-Rounder",
+    "team": "KKR"
+  },
+  {
+    "id": "daksh-kamra-kkr",
+    "name": "Daksh Kamra",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "Bowler",
+    "team": "KKR"
+  },
+  {
+    "id": "finn-allen-kkr",
+    "name": "Finn Allen",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "Wicketkeeper",
+    "team": "KKR"
+  },
+  {
+    "id": "harshit-rana-kkr",
+    "name": "Harshit Rana",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "Bowler",
+    "team": "KKR"
+  },
+  {
+    "id": "kartik-tyagi-kkr",
+    "name": "Kartik Tyagi",
+    "basePrice": 10000000,
+    "tier": "C",
+    "role": "Bowler",
+    "team": "KKR"
+  },
+  {
+    "id": "litton-das-kkr",
+    "name": "Litton Das",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "Wicketkeeper",
+    "team": "KKR"
+  },
+  {
+    "id": "manish-pandey-kkr",
+    "name": "Manish Pandey",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "Batter",
+    "team": "KKR"
+  },
+  {
+    "id": "prashant-solanki-kkr",
+    "name": "Prashant Solanki",
+    "basePrice": 10000000,
+    "tier": "C",
+    "role": "Bowler",
+    "team": "KKR"
+  },
+  {
+    "id": "rachin-ravindra-kkr",
+    "name": "Rachin Ravindra",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "All-Rounder",
+    "team": "KKR"
+  },
+  {
+    "id": "rahul-tripathi-kkr",
+    "name": "Rahul Tripathi",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "Batter",
+    "team": "KKR"
+  },
+  {
+    "id": "ramandeep-singh-kkr",
+    "name": "Ramandeep Singh",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "All-Rounder",
+    "team": "KKR"
+  },
+  {
+    "id": "rovman-powell-kkr",
+    "name": "Rovman Powell",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "Batter",
+    "team": "KKR"
+  },
+  {
+    "id": "sarthak-ranjan-kkr",
+    "name": "Sarthak Ranjan",
+    "basePrice": 10000000,
+    "tier": "C",
+    "role": "Batter",
+    "team": "KKR"
+  },
+  {
+    "id": "saurabh-dubey-kkr",
+    "name": "Saurabh Dubey",
+    "basePrice": 10000000,
+    "tier": "C",
+    "role": "Bowler",
+    "team": "KKR"
+  },
+  {
+    "id": "tejasvi-singh-kkr",
+    "name": "Tejasvi Singh",
+    "basePrice": 10000000,
+    "tier": "C",
+    "role": "Bowler",
+    "team": "KKR"
+  },
+  {
+    "id": "tim-seifert-kkr",
+    "name": "Tim Seifert",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "Wicketkeeper",
+    "team": "KKR"
+  },
+  {
+    "id": "umran-malik-kkr",
+    "name": "Umran Malik",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "Bowler",
+    "team": "KKR"
+  },
+  {
+    "id": "vaibhav-arora-kkr",
+    "name": "Vaibhav Arora",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "Bowler",
+    "team": "KKR"
+  },
+  {
+    "id": "abdul-samad-lsg",
+    "name": "Abdul Samad",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "Batter",
+    "team": "LSG"
+  },
+  {
+    "id": "aiden-markram-lsg",
+    "name": "Aiden Markram",
+    "basePrice": 50000000,
+    "tier": "A",
+    "role": "Batter",
+    "team": "LSG"
+  },
+  {
+    "id": "akash-singh-lsg",
+    "name": "Akash Singh",
+    "basePrice": 10000000,
+    "tier": "C",
+    "role": "Bowler",
+    "team": "LSG"
+  },
+  {
+    "id": "akshat-raghuwanshi-lsg",
+    "name": "Akshat Raghuwanshi",
+    "basePrice": 10000000,
+    "tier": "C",
+    "role": "Batter",
+    "team": "LSG"
+  },
+  {
+    "id": "anrich-nortje-lsg",
+    "name": "Anrich Nortje",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "Bowler",
+    "team": "LSG"
+  },
+  {
+    "id": "arjun-tendulkar-lsg",
+    "name": "Arjun Tendulkar",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "All-Rounder",
+    "team": "LSG"
+  },
+  {
+    "id": "arshin-kulkarni-lsg",
+    "name": "Arshin Kulkarni",
+    "basePrice": 10000000,
+    "tier": "C",
+    "role": "All-Rounder",
+    "team": "LSG"
+  },
+  {
+    "id": "avesh-khan-lsg",
+    "name": "Avesh Khan",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "Bowler",
+    "team": "LSG"
+  },
+  {
+    "id": "ayush-badoni-lsg",
+    "name": "Ayush Badoni",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "Batter",
+    "team": "LSG"
+  },
+  {
+    "id": "digvesh-rathi-lsg",
+    "name": "Digvesh Rathi",
+    "basePrice": 10000000,
+    "tier": "C",
+    "role": "Bowler",
+    "team": "LSG"
+  },
+  {
+    "id": "himmat-singh-lsg",
+    "name": "Himmat Singh",
+    "basePrice": 10000000,
+    "tier": "C",
+    "role": "Batter",
+    "team": "LSG"
+  },
+  {
+    "id": "josh-inglis-lsg",
+    "name": "Josh Inglis",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "Wicketkeeper",
+    "team": "LSG"
+  },
+  {
+    "id": "manimaran-siddharth-lsg",
+    "name": "Manimaran Siddharth",
+    "basePrice": 10000000,
+    "tier": "C",
+    "role": "Bowler",
+    "team": "LSG"
+  },
+  {
+    "id": "matthew-breetzke-lsg",
+    "name": "Matthew Breetzke",
+    "basePrice": 10000000,
+    "tier": "C",
+    "role": "Batter",
+    "team": "LSG"
+  },
+  {
+    "id": "mayank-yadav-lsg",
+    "name": "Mayank Yadav",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "Bowler",
+    "team": "LSG"
+  },
+  {
+    "id": "mohsin-khan-lsg",
+    "name": "Mohsin Khan",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "Bowler",
+    "team": "LSG"
+  },
+  {
+    "id": "mukul-choudhary-lsg",
+    "name": "Mukul Choudhary",
+    "basePrice": 10000000,
+    "tier": "C",
+    "role": "Bowler",
+    "team": "LSG"
+  },
+  {
+    "id": "naman-tiwari-lsg",
+    "name": "Naman Tiwari",
+    "basePrice": 10000000,
+    "tier": "C",
+    "role": "Bowler",
+    "team": "LSG"
+  },
+  {
+    "id": "prince-yadav-lsg",
+    "name": "Prince Yadav",
+    "basePrice": 10000000,
+    "tier": "C",
+    "role": "Bowler",
+    "team": "LSG"
+  },
+  {
+    "id": "shahbaz-ahmed-lsg",
+    "name": "Shahbaz Ahmed",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "All-Rounder",
+    "team": "LSG"
+  },
+  {
+    "id": "allah-ghazanfar-mi",
+    "name": "Allah Ghazanfar",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "Bowler",
+    "team": "MI"
+  },
+  {
+    "id": "ashwani-kumar-mi",
+    "name": "Ashwani Kumar",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "Bowler",
+    "team": "MI"
+  },
+  {
+    "id": "atharva-ankolekar-mi",
+    "name": "Atharva Ankolekar",
+    "basePrice": 10000000,
+    "tier": "C",
+    "role": "All-Rounder",
+    "team": "MI"
+  },
+  {
+    "id": "corbin-bosch-mi",
+    "name": "Corbin Bosch",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "All-Rounder",
+    "team": "MI"
+  },
+  {
+    "id": "danish-malewar-mi",
+    "name": "Danish Malewar",
+    "basePrice": 10000000,
+    "tier": "C",
+    "role": "Batter",
+    "team": "MI"
+  },
+  {
+    "id": "deepak-chahar-mi",
+    "name": "Deepak Chahar",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "Bowler",
+    "team": "MI"
+  },
+  {
+    "id": "mayank-markande-mi",
+    "name": "Mayank Markande",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "Bowler",
+    "team": "MI"
+  },
+  {
+    "id": "mayank-rawat-mi",
+    "name": "Mayank Rawat",
+    "basePrice": 10000000,
+    "tier": "C",
+    "role": "All-Rounder",
+    "team": "MI"
+  },
+  {
+    "id": "mitchell-santner-mi",
+    "name": "Mitchell Santner",
+    "basePrice": 50000000,
+    "tier": "A",
+    "role": "All-Rounder",
+    "team": "MI"
+  },
+  {
+    "id": "mohammad-izhar-mi",
+    "name": "Mohammad Izhar",
+    "basePrice": 10000000,
+    "tier": "C",
+    "role": "Bowler",
+    "team": "MI"
+  },
+  {
+    "id": "naman-dhir-mi",
+    "name": "Naman Dhir",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "Batter",
+    "team": "MI"
+  },
+  {
+    "id": "raghu-sharma-mi",
+    "name": "Raghu Sharma",
+    "basePrice": 10000000,
+    "tier": "C",
+    "role": "Bowler",
+    "team": "MI"
+  },
+  {
+    "id": "raj-angad-bawa-mi",
+    "name": "Raj Angad Bawa",
+    "basePrice": 10000000,
+    "tier": "C",
+    "role": "All-Rounder",
+    "team": "MI"
+  },
+  {
+    "id": "robin-minz-mi",
+    "name": "Robin Minz",
+    "basePrice": 10000000,
+    "tier": "C",
+    "role": "Wicketkeeper",
+    "team": "MI"
+  },
+  {
+    "id": "ryan-rickleton-mi",
+    "name": "Ryan Rickleton",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "Wicketkeeper",
+    "team": "MI"
+  },
+  {
+    "id": "shardul-thakur-mi",
+    "name": "Shardul Thakur",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "All-Rounder",
+    "team": "MI"
+  },
+  {
+    "id": "sherfane-rutherford-mi",
+    "name": "Sherfane Rutherford",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "Batter",
+    "team": "MI"
+  },
+  {
+    "id": "will-jacks-mi",
+    "name": "Will Jacks",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "All-Rounder",
+    "team": "MI"
+  },
+  {
+    "id": "ashutosh-sharma-pbks",
+    "name": "Ashutosh Sharma",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "Batter",
+    "team": "PBKS"
+  },
+  {
+    "id": "azmatullah-omarzai-pbks",
+    "name": "Azmatullah Omarzai",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "All-Rounder",
+    "team": "PBKS"
+  },
+  {
+    "id": "ben-dwarshuis-pbks",
+    "name": "Ben Dwarshuis",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "All-Rounder",
+    "team": "PBKS"
+  },
+  {
+    "id": "cooper-connolly-pbks",
+    "name": "Cooper Connolly",
+    "basePrice": 10000000,
+    "tier": "C",
+    "role": "All-Rounder",
+    "team": "PBKS"
+  },
+  {
+    "id": "harnoor-pannu-pbks",
+    "name": "Harnoor Pannu",
+    "basePrice": 10000000,
+    "tier": "C",
+    "role": "Batter",
+    "team": "PBKS"
+  },
+  {
+    "id": "harpreet-brar-pbks",
+    "name": "Harpreet Brar",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "All-Rounder",
+    "team": "PBKS"
+  },
+  {
+    "id": "lockie-ferguson-pbks",
+    "name": "Lockie Ferguson",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "Bowler",
+    "team": "PBKS"
+  },
+  {
+    "id": "marco-jansen-pbks",
+    "name": "Marco Jansen",
+    "basePrice": 50000000,
+    "tier": "A",
+    "role": "All-Rounder",
+    "team": "PBKS"
+  },
+  {
+    "id": "nehal-wadhera-pbks",
+    "name": "Nehal Wadhera",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "Batter",
+    "team": "PBKS"
+  },
+  {
+    "id": "prabhsimran-singh-pbks",
+    "name": "Prabhsimran Singh",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "Wicketkeeper",
+    "team": "PBKS"
+  },
+  {
+    "id": "pravin-dubey-pbks",
+    "name": "Pravin Dubey",
+    "basePrice": 10000000,
+    "tier": "C",
+    "role": "Bowler",
+    "team": "PBKS"
+  },
+  {
+    "id": "prince-choudhary-pbks",
+    "name": "Prince Choudhary",
+    "basePrice": 10000000,
+    "tier": "C",
+    "role": "Bowler",
+    "team": "PBKS"
+  },
+  {
+    "id": "priyansh-arya-pbks",
+    "name": "Priyansh Arya",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "Batter",
+    "team": "PBKS"
+  },
+  {
+    "id": "pyla-avinash-pbks",
+    "name": "Pyla Avinash",
+    "basePrice": 10000000,
+    "tier": "C",
+    "role": "Batter",
+    "team": "PBKS"
+  },
+  {
+    "id": "shashank-singh-pbks",
+    "name": "Shashank Singh",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "Batter",
+    "team": "PBKS"
+  },
+  {
+    "id": "vishal-nishad-pbks",
+    "name": "Vishal Nishad",
+    "basePrice": 10000000,
+    "tier": "C",
+    "role": "Bowler",
+    "team": "PBKS"
+  },
+  {
+    "id": "vishnu-vinod-pbks",
+    "name": "Vishnu Vinod",
+    "basePrice": 10000000,
+    "tier": "C",
+    "role": "Wicketkeeper",
+    "team": "PBKS"
+  },
+  {
+    "id": "vyshak-vijaykumar-pbks",
+    "name": "Vyshak Vijaykumar",
+    "basePrice": 10000000,
+    "tier": "C",
+    "role": "Bowler",
+    "team": "PBKS"
+  },
+  {
+    "id": "xavier-bartlett-pbks",
+    "name": "Xavier Bartlett",
+    "basePrice": 10000000,
+    "tier": "C",
+    "role": "Bowler",
+    "team": "PBKS"
+  },
+  {
+    "id": "yash-thakur-pbks",
+    "name": "Yash Thakur",
+    "basePrice": 10000000,
+    "tier": "C",
+    "role": "Bowler",
+    "team": "PBKS"
+  },
+  {
+    "id": "yuzvendra-chahal-pbks",
+    "name": "Yuzvendra Chahal",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "Bowler",
+    "team": "PBKS"
+  },
+  {
+    "id": "blessing-muzarabani-rcb",
+    "name": "Blessing Muzarabani",
+    "basePrice": 10000000,
+    "tier": "C",
+    "role": "Bowler",
+    "team": "RCB"
+  },
+  {
+    "id": "devdutt-padikkal-rcb",
+    "name": "Devdutt Padikkal",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "Batter",
+    "team": "RCB"
+  },
+  {
+    "id": "jacob-bethell-rcb",
+    "name": "Jacob Bethell",
+    "basePrice": 50000000,
+    "tier": "A",
+    "role": "All-Rounder",
+    "team": "RCB"
+  },
+  {
+    "id": "jitesh-sharma-rcb",
+    "name": "Jitesh Sharma",
+    "basePrice": 50000000,
+    "tier": "A",
+    "role": "Wicketkeeper",
+    "team": "RCB"
+  },
+  {
+    "id": "jordan-cox-rcb",
+    "name": "Jordan Cox",
+    "basePrice": 10000000,
+    "tier": "C",
+    "role": "Wicketkeeper",
+    "team": "RCB"
+  },
+  {
+    "id": "josh-philippe-rcb",
+    "name": "Josh Philippe",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "Wicketkeeper",
+    "team": "RCB"
+  },
+  {
+    "id": "krunal-pandya-rcb",
+    "name": "Krunal Pandya",
+    "basePrice": 50000000,
+    "tier": "A",
+    "role": "All-Rounder",
+    "team": "RCB"
+  },
+  {
+    "id": "lungi-ngidi-rcb",
+    "name": "Lungi Ngidi",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "Bowler",
+    "team": "RCB"
+  },
+  {
+    "id": "manoj-bhandage-rcb",
+    "name": "Manoj Bhandage",
+    "basePrice": 10000000,
+    "tier": "C",
+    "role": "All-Rounder",
+    "team": "RCB"
+  },
+  {
+    "id": "nuwan-thushara-rcb",
+    "name": "Nuwan Thushara",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "Bowler",
+    "team": "RCB"
+  },
+  {
+    "id": "rajat-patidar-rcb",
+    "name": "Rajat Patidar",
+    "basePrice": 50000000,
+    "tier": "A",
+    "role": "Batter",
+    "team": "RCB"
+  },
+  {
+    "id": "rasikh-salam-rcb",
+    "name": "Rasikh Salam",
+    "basePrice": 10000000,
+    "tier": "C",
+    "role": "Bowler",
+    "team": "RCB"
+  },
+  {
+    "id": "romario-shepherd-rcb",
+    "name": "Romario Shepherd",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "All-Rounder",
+    "team": "RCB"
+  },
+  {
+    "id": "suyash-sharma-rcb",
+    "name": "Suyash Sharma",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "Bowler",
+    "team": "RCB"
+  },
+  {
+    "id": "swastik-chikara-rcb",
+    "name": "Swastik Chikara",
+    "basePrice": 10000000,
+    "tier": "C",
+    "role": "Batter",
+    "team": "RCB"
+  },
+  {
+    "id": "tim-david-rcb",
+    "name": "Tim David",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "Batter",
+    "team": "RCB"
+  },
+  {
+    "id": "venkatesh-iyer-rcb",
+    "name": "Venkatesh Iyer",
+    "basePrice": 50000000,
+    "tier": "A",
+    "role": "All-Rounder",
+    "team": "RCB"
+  },
+  {
+    "id": "vicky-ostwal-rcb",
+    "name": "Vicky Ostwal",
+    "basePrice": 10000000,
+    "tier": "C",
+    "role": "Bowler",
+    "team": "RCB"
+  },
+  {
+    "id": "yash-dayal-rcb",
+    "name": "Yash Dayal",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "Bowler",
+    "team": "RCB"
+  },
+  {
+    "id": "aman-rao-rr",
+    "name": "Aman Rao",
+    "basePrice": 10000000,
+    "tier": "C",
+    "role": "Batter",
+    "team": "RR"
+  },
+  {
+    "id": "brijesh-sharma-rr",
+    "name": "Brijesh Sharma",
+    "basePrice": 10000000,
+    "tier": "C",
+    "role": "Batter",
+    "team": "RR"
+  },
+  {
+    "id": "dhruv-jurel-rr",
+    "name": "Dhruv Jurel",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "Wicketkeeper",
+    "team": "RR"
+  },
+  {
+    "id": "donovan-ferreira-rr",
+    "name": "Donovan Ferreira",
+    "basePrice": 10000000,
+    "tier": "C",
+    "role": "Wicketkeeper",
+    "team": "RR"
+  },
+  {
+    "id": "kuldeep-sen-rr",
+    "name": "Kuldeep Sen",
+    "basePrice": 10000000,
+    "tier": "C",
+    "role": "Bowler",
+    "team": "RR"
+  },
+  {
+    "id": "kwena-maphaka-rr",
+    "name": "Kwena Maphaka",
+    "basePrice": 10000000,
+    "tier": "C",
+    "role": "Bowler",
+    "team": "RR"
+  },
+  {
+    "id": "lhuan-dre-pretorius-rr",
+    "name": "Lhuan-Dre Pretorius",
+    "basePrice": 10000000,
+    "tier": "C",
+    "role": "Wicketkeeper",
+    "team": "RR"
+  },
+  {
+    "id": "nandre-burger-rr",
+    "name": "Nandre Burger",
+    "basePrice": 10000000,
+    "tier": "C",
+    "role": "Bowler",
+    "team": "RR"
+  },
+  {
+    "id": "navdeep-saini-rr",
+    "name": "Navdeep Saini",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "Bowler",
+    "team": "RR"
+  },
+  {
+    "id": "ravi-bishnoi-rr",
+    "name": "Ravi Bishnoi",
+    "basePrice": 50000000,
+    "tier": "A",
+    "role": "Bowler",
+    "team": "RR"
+  },
+  {
+    "id": "ravi-singh-rr",
+    "name": "Ravi Singh",
+    "basePrice": 10000000,
+    "tier": "C",
+    "role": "Bowler",
+    "team": "RR"
+  },
+  {
+    "id": "riyan-parag-rr",
+    "name": "Riyan Parag",
+    "basePrice": 50000000,
+    "tier": "A",
+    "role": "All-Rounder",
+    "team": "RR"
+  },
+  {
+    "id": "sam-curran-rr",
+    "name": "Sam Curran",
+    "basePrice": 50000000,
+    "tier": "A",
+    "role": "All-Rounder",
+    "team": "RR"
+  },
+  {
+    "id": "sandeep-sharma-rr",
+    "name": "Sandeep Sharma",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "Bowler",
+    "team": "RR"
+  },
+  {
+    "id": "shimron-hetmyer-rr",
+    "name": "Shimron Hetmyer",
+    "basePrice": 50000000,
+    "tier": "A",
+    "role": "Batter",
+    "team": "RR"
+  },
+  {
+    "id": "shubham-dubey-rr",
+    "name": "Shubham Dubey",
+    "basePrice": 10000000,
+    "tier": "C",
+    "role": "Batter",
+    "team": "RR"
+  },
+  {
+    "id": "sushant-mishra-rr",
+    "name": "Sushant Mishra",
+    "basePrice": 10000000,
+    "tier": "C",
+    "role": "Bowler",
+    "team": "RR"
+  },
+  {
+    "id": "tushar-deshpande-rr",
+    "name": "Tushar Deshpande",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "Bowler",
+    "team": "RR"
+  },
+  {
+    "id": "vaibhav-suryavanshi-rr",
+    "name": "Vaibhav Suryavanshi",
+    "basePrice": 50000000,
+    "tier": "A",
+    "role": "Batter",
+    "team": "RR"
+  },
+  {
+    "id": "vignesh-puthur-rr",
+    "name": "Vignesh Puthur",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "Bowler",
+    "team": "RR"
+  },
+  {
+    "id": "yash-raj-punja-rr",
+    "name": "Yash Raj Punja",
+    "basePrice": 10000000,
+    "tier": "C",
+    "role": "Batter",
+    "team": "RR"
+  },
+  {
+    "id": "yudhvir-singh-charak-rr",
+    "name": "Yudhvir Singh Charak",
+    "basePrice": 10000000,
+    "tier": "C",
+    "role": "All-Rounder",
+    "team": "RR"
+  },
+  {
+    "id": "amit-kumar-srh",
+    "name": "Amit Kumar",
+    "basePrice": 10000000,
+    "tier": "C",
+    "role": "Batter",
+    "team": "SRH"
+  },
+  {
+    "id": "aniket-verma-srh",
+    "name": "Aniket Verma",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "Batter",
+    "team": "SRH"
+  },
+  {
+    "id": "brydon-carse-srh",
+    "name": "Brydon Carse",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "All-Rounder",
+    "team": "SRH"
+  },
+  {
+    "id": "eshan-malinga-srh",
+    "name": "Eshan Malinga",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "Bowler",
+    "team": "SRH"
+  },
+  {
+    "id": "harsh-dubey-srh",
+    "name": "Harsh Dubey",
+    "basePrice": 10000000,
+    "tier": "C",
+    "role": "All-Rounder",
+    "team": "SRH"
+  },
+  {
+    "id": "harshal-patel-srh",
+    "name": "Harshal Patel",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "Bowler",
+    "team": "SRH"
+  },
+  {
+    "id": "ishan-kishan-srh",
+    "name": "Ishan Kishan",
+    "basePrice": 50000000,
+    "tier": "A",
+    "role": "Wicketkeeper",
+    "team": "SRH"
+  },
+  {
+    "id": "jack-edwards-srh",
+    "name": "Jack Edwards",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "All-Rounder",
+    "team": "SRH"
+  },
+  {
+    "id": "jaydev-unadkat-srh",
+    "name": "Jaydev Unadkat",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "Bowler",
+    "team": "SRH"
+  },
+  {
+    "id": "kamindu-mendis-srh",
+    "name": "Kamindu Mendis",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "All-Rounder",
+    "team": "SRH"
+  },
+  {
+    "id": "krains-fuletra-srh",
+    "name": "Krains Fuletra",
+    "basePrice": 10000000,
+    "tier": "C",
+    "role": "Bowler",
+    "team": "SRH"
+  },
+  {
+    "id": "nitish-kumar-reddy-srh",
+    "name": "Nitish Kumar Reddy",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "All-Rounder",
+    "team": "SRH"
+  },
+  {
+    "id": "onkar-tarmale-srh",
+    "name": "Onkar Tarmale",
+    "basePrice": 10000000,
+    "tier": "C",
+    "role": "Bowler",
+    "team": "SRH"
+  },
+  {
+    "id": "praful-hinge-srh",
+    "name": "Praful Hinge",
+    "basePrice": 10000000,
+    "tier": "C",
+    "role": "Bowler",
+    "team": "SRH"
+  },
+  {
+    "id": "sakib-hussain-srh",
+    "name": "Sakib Hussain",
+    "basePrice": 10000000,
+    "tier": "C",
+    "role": "Bowler",
+    "team": "SRH"
+  },
+  {
+    "id": "salil-arora-srh",
+    "name": "Salil Arora",
+    "basePrice": 10000000,
+    "tier": "C",
+    "role": "Wicketkeeper",
+    "team": "SRH"
+  },
+  {
+    "id": "shivam-mavi-srh",
+    "name": "Shivam Mavi",
+    "basePrice": 10000000,
+    "tier": "C",
+    "role": "Bowler",
+    "team": "SRH"
+  },
+  {
+    "id": "shivang-kumar-srh",
+    "name": "Shivang Kumar",
+    "basePrice": 10000000,
+    "tier": "C",
+    "role": "Batter",
+    "team": "SRH"
+  },
+  {
+    "id": "t-natarajan-srh",
+    "name": "T. Natarajan",
+    "basePrice": 20000000,
+    "tier": "B",
+    "role": "Bowler",
+    "team": "SRH"
+  },
+  {
+    "id": "zeeshan-ansari-srh",
+    "name": "Zeeshan Ansari",
+    "basePrice": 10000000,
+    "tier": "C",
+    "role": "Bowler",
+    "team": "SRH"
+  }
+]
