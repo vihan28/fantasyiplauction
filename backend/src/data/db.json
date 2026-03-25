@@ -2087,9 +2087,9 @@
     },
     "sai-sudharsan-gt": {
       "playerId": "sai-sudharsan-gt",
-      "matchesPlayed": 2,
-      "totalPoints": 80,
-      "updatedAt": "2026-03-23T19:11:53.214Z",
+      "matchesPlayed": 4,
+      "totalPoints": 160,
+      "updatedAt": "2026-03-25T11:56:10.565Z",
       "processedMatches": {}
     },
     "shubman-gill-gt": {
@@ -2304,9 +2304,9 @@
     },
     "abhishek-sharma-srh": {
       "playerId": "abhishek-sharma-srh",
-      "matchesPlayed": 0,
-      "totalPoints": 0,
-      "updatedAt": null,
+      "matchesPlayed": 4,
+      "totalPoints": 90,
+      "updatedAt": "2026-03-25T11:56:10.638Z",
       "processedMatches": {}
     },
     "heinrich-klaasen-srh": {
@@ -4047,7 +4047,7 @@
           "t-natarajan-srh",
           "zeeshan-ansari-srh"
         ],
-        "currentPlayerId": "prashant-solanki-kkr",
+        "currentPlayerId": "prince-choudhary-pbks",
         "currentBid": {
           "amount": 10000000,
           "bidderMemberId": null,
@@ -4247,9 +4247,10 @@
           "harnoor-pannu-pbks",
           "sushant-mishra-rr",
           "kuldeep-sen-rr",
-          "vipraj-nigam-dc"
+          "vipraj-nigam-dc",
+          "prashant-solanki-kkr"
         ],
-        "expiresAt": "2026-03-25T11:30:43.867Z",
+        "expiresAt": "2026-03-25T11:56:24.067Z",
         "history": [
           {
             "id": "c268181d-17b9-428e-ab8e-0757e95633da",
@@ -5859,6 +5860,14 @@
             "playerName": "Vipraj Nigam",
             "reason": "timer",
             "timestamp": "2026-03-25T11:30:28.867Z"
+          },
+          {
+            "id": "2164dd06-7133-4d84-9f74-e64ed5bb345c",
+            "type": "unsold",
+            "playerId": "prashant-solanki-kkr",
+            "playerName": "Prashant Solanki",
+            "reason": "timer",
+            "timestamp": "2026-03-25T11:56:09.065Z"
           }
         ]
       },
@@ -5908,7 +5917,7 @@
           "userName": "Rohit",
           "teamName": "Rohit XI",
           "budgetRemaining": 50000000,
-          "totalPoints": 60,
+          "totalPoints": 140,
           "roster": [
             {
               "playerId": "sai-sudharsan-gt",
@@ -6173,7 +6182,7 @@
           "t-natarajan-srh",
           "zeeshan-ansari-srh"
         ],
-        "currentPlayerId": "matthew-breetzke-lsg",
+        "currentPlayerId": "krains-fuletra-srh",
         "currentBid": {
           "amount": 10000000,
           "bidderMemberId": null,
@@ -6372,9 +6381,10 @@
           "ramakrishna-ghosh-csk",
           "madhav-tiwari-dc",
           "salil-arora-srh",
-          "urvil-patel-csk"
+          "urvil-patel-csk",
+          "matthew-breetzke-lsg"
         ],
-        "expiresAt": "2026-03-25T11:30:43.886Z",
+        "expiresAt": "2026-03-25T11:56:24.100Z",
         "history": [
           {
             "id": "46295a56-fe40-4226-b082-19c6b8c1707e",
@@ -7976,6 +7986,14 @@
             "playerName": "Urvil Patel",
             "reason": "timer",
             "timestamp": "2026-03-25T11:30:28.886Z"
+          },
+          {
+            "id": "aea5041e-6e2a-42d3-85f2-0b50d62c9388",
+            "type": "unsold",
+            "playerId": "matthew-breetzke-lsg",
+            "playerName": "Matthew Breetzke",
+            "reason": "timer",
+            "timestamp": "2026-03-25T11:56:09.100Z"
           }
         ]
       },
@@ -8574,7 +8592,7 @@
           "t-natarajan-srh",
           "zeeshan-ansari-srh"
         ],
-        "currentPlayerId": "aniket-verma-srh",
+        "currentPlayerId": "ayush-mhatre-csk",
         "currentBid": {
           "amount": 20000000,
           "bidderMemberId": null,
@@ -8717,9 +8735,10 @@
           "rahul-tewatia-gt",
           "vignesh-puthur-rr",
           "jayant-yadav-gt",
-          "tim-seifert-kkr"
+          "tim-seifert-kkr",
+          "aniket-verma-srh"
         ],
-        "expiresAt": "2026-03-25T11:30:43.922Z",
+        "expiresAt": "2026-03-25T11:56:24.115Z",
         "history": [
           {
             "id": "9c1379f0-34b5-4165-a522-0b121c9c9994",
@@ -9873,6 +9892,14 @@
             "playerName": "Tim Seifert",
             "reason": "timer",
             "timestamp": "2026-03-25T11:30:28.922Z"
+          },
+          {
+            "id": "15913820-a477-451e-9a42-2bdd94da90fe",
+            "type": "unsold",
+            "playerId": "aniket-verma-srh",
+            "playerName": "Aniket Verma",
+            "reason": "timer",
+            "timestamp": "2026-03-25T11:56:09.114Z"
           }
         ]
       },
@@ -9890,6 +9917,440 @@
           ],
           "createdAt": "2026-03-23T19:34:17.114Z",
           "resolvedAt": "2026-03-23T19:34:17.133Z"
+        }
+      ]
+    },
+    {
+      "id": "548a58b8-ce04-44ff-8851-5be44c9a694a",
+      "code": "57142A",
+      "name": "Backend Smoke League",
+      "status": "auction-live",
+      "ownerMemberId": "8c196a79-1107-4bfe-9ded-f9626ee7b22b",
+      "createdAt": "2026-03-25T11:56:10.174Z",
+      "members": [
+        {
+          "id": "8c196a79-1107-4bfe-9ded-f9626ee7b22b",
+          "userName": "Ashu",
+          "teamName": "Ashu XI",
+          "budgetRemaining": 50000000,
+          "totalPoints": 110,
+          "roster": [
+            {
+              "playerId": "mohammed-siraj-gt",
+              "purchasePrice": 50000000,
+              "acquiredAt": "2026-03-25T11:56:10.677Z",
+              "acquiredAtMatchesPlayed": 0,
+              "acquiredVia": "market-swap"
+            }
+          ]
+        },
+        {
+          "id": "39779be3-4a6f-45f0-ab40-a27a8aee71ca",
+          "userName": "Rohit",
+          "teamName": "Rohit XI",
+          "budgetRemaining": 50000000,
+          "totalPoints": 60,
+          "roster": [
+            {
+              "playerId": "sai-sudharsan-gt",
+              "purchasePrice": 50000000,
+              "acquiredAt": "2026-03-25T11:56:10.614Z",
+              "acquiredAtMatchesPlayed": 4,
+              "acquiredVia": "trade"
+            }
+          ]
+        }
+      ],
+      "auction": {
+        "status": "live",
+        "queue": [
+          "ruturaj-gaikwad-csk",
+          "sanju-samson-csk",
+          "axar-patel-dc",
+          "harry-brook-dc",
+          "kl-rahul-dc",
+          "kuldeep-yadav-dc",
+          "mitchell-starc-dc",
+          "jos-buttler-gt",
+          "kagiso-rabada-gt",
+          "mohammed-siraj-gt",
+          "rashid-khan-gt",
+          "sai-sudharsan-gt",
+          "shubman-gill-gt",
+          "cameron-green-kkr",
+          "matheesha-pathirana-kkr",
+          "rinku-singh-kkr",
+          "sunil-narine-kkr",
+          "varun-chakaravarthy-kkr",
+          "mitchell-marsh-lsg",
+          "mohammed-shami-lsg",
+          "nicholas-pooran-lsg",
+          "rishabh-pant-lsg",
+          "wanindu-hasaranga-lsg",
+          "hardik-pandya-mi",
+          "jasprit-bumrah-mi",
+          "quinton-de-kock-mi",
+          "rohit-sharma-mi",
+          "suryakumar-yadav-mi",
+          "tilak-varma-mi",
+          "trent-boult-mi",
+          "arshdeep-singh-pbks",
+          "marcus-stoinis-pbks",
+          "shreyas-iyer-pbks",
+          "adam-zampa-rcb",
+          "bhuvneshwar-kumar-rcb",
+          "josh-hazlewood-rcb",
+          "liam-livingstone-rcb",
+          "phil-salt-rcb",
+          "virat-kohli-rcb",
+          "jofra-archer-rr",
+          "ravindra-jadeja-rr",
+          "yashasvi-jaiswal-rr",
+          "abhishek-sharma-srh",
+          "heinrich-klaasen-srh",
+          "liam-livingstone-srh",
+          "pat-cummins-srh",
+          "travis-head-srh",
+          "akeal-hosein-csk",
+          "aman-khan-csk",
+          "anshul-kamboj-csk",
+          "ayush-mhatre-csk",
+          "dewald-brevis-csk",
+          "gurjapneet-singh-csk",
+          "jamie-overton-csk",
+          "kartik-sharma-csk",
+          "khaleel-ahmed-csk",
+          "ms-dhoni-csk",
+          "matt-henry-csk",
+          "matthew-short-csk",
+          "mukesh-choudhary-csk",
+          "nathan-ellis-csk",
+          "noor-ahmad-csk",
+          "prashant-veer-csk",
+          "rahul-chahar-csk",
+          "ramakrishna-ghosh-csk",
+          "sarfaraz-khan-csk",
+          "shivam-dube-csk",
+          "shreyas-gopal-csk",
+          "urvil-patel-csk",
+          "zakary-foulkes-csk",
+          "abishek-porel-dc",
+          "ajay-mandal-dc",
+          "ashutosh-sharma-dc",
+          "auqib-dar-dc",
+          "ben-duckett-dc",
+          "david-miller-dc",
+          "dushmantha-chameera-dc",
+          "karun-nair-dc",
+          "kyle-jamieson-dc",
+          "lungi-ngidi-dc",
+          "madhav-tiwari-dc",
+          "mukesh-kumar-dc",
+          "pathum-nissanka-dc",
+          "prithvi-shaw-dc",
+          "sahil-parakh-dc",
+          "sameer-rizvi-dc",
+          "t-natarajan-dc",
+          "tripurana-vijay-dc",
+          "tristan-stubbs-dc",
+          "vipraj-nigam-dc",
+          "abhinav-manohar-gt",
+          "anuj-rawat-gt",
+          "arshad-khan-gt",
+          "darshan-nalkande-gt",
+          "glenn-phillips-gt",
+          "jason-holder-gt",
+          "jayant-yadav-gt",
+          "kartik-tyagi-gt",
+          "kumar-kushagra-gt",
+          "luke-wood-gt",
+          "manav-suthar-gt",
+          "mohit-sharma-gt",
+          "nishant-sindhu-gt",
+          "rahul-tewatia-gt",
+          "sai-kishore-gt",
+          "shahrukh-khan-gt",
+          "sushant-mishra-gt",
+          "tom-banton-gt",
+          "washington-sundar-gt",
+          "ajinkya-rahane-kkr",
+          "angkrish-raghuvanshi-kkr",
+          "anukul-roy-kkr",
+          "daksh-kamra-kkr",
+          "finn-allen-kkr",
+          "harshit-rana-kkr",
+          "kartik-tyagi-kkr",
+          "litton-das-kkr",
+          "manish-pandey-kkr",
+          "prashant-solanki-kkr",
+          "rachin-ravindra-kkr",
+          "rahul-tripathi-kkr",
+          "ramandeep-singh-kkr",
+          "rovman-powell-kkr",
+          "sarthak-ranjan-kkr",
+          "saurabh-dubey-kkr",
+          "tejasvi-singh-kkr",
+          "tim-seifert-kkr",
+          "umran-malik-kkr",
+          "vaibhav-arora-kkr",
+          "abdul-samad-lsg",
+          "aiden-markram-lsg",
+          "akash-singh-lsg",
+          "akshat-raghuwanshi-lsg",
+          "anrich-nortje-lsg",
+          "arjun-tendulkar-lsg",
+          "arshin-kulkarni-lsg",
+          "avesh-khan-lsg",
+          "ayush-badoni-lsg",
+          "digvesh-rathi-lsg",
+          "himmat-singh-lsg",
+          "josh-inglis-lsg",
+          "manimaran-siddharth-lsg",
+          "matthew-breetzke-lsg",
+          "mayank-yadav-lsg",
+          "mohsin-khan-lsg",
+          "mukul-choudhary-lsg",
+          "naman-tiwari-lsg",
+          "prince-yadav-lsg",
+          "shahbaz-ahmed-lsg",
+          "allah-ghazanfar-mi",
+          "ashwani-kumar-mi",
+          "atharva-ankolekar-mi",
+          "corbin-bosch-mi",
+          "danish-malewar-mi",
+          "deepak-chahar-mi",
+          "mayank-markande-mi",
+          "mayank-rawat-mi",
+          "mitchell-santner-mi",
+          "mohammad-izhar-mi",
+          "naman-dhir-mi",
+          "raghu-sharma-mi",
+          "raj-angad-bawa-mi",
+          "robin-minz-mi",
+          "ryan-rickleton-mi",
+          "shardul-thakur-mi",
+          "sherfane-rutherford-mi",
+          "will-jacks-mi",
+          "ashutosh-sharma-pbks",
+          "azmatullah-omarzai-pbks",
+          "ben-dwarshuis-pbks",
+          "cooper-connolly-pbks",
+          "harnoor-pannu-pbks",
+          "harpreet-brar-pbks",
+          "lockie-ferguson-pbks",
+          "marco-jansen-pbks",
+          "nehal-wadhera-pbks",
+          "prabhsimran-singh-pbks",
+          "pravin-dubey-pbks",
+          "prince-choudhary-pbks",
+          "priyansh-arya-pbks",
+          "pyla-avinash-pbks",
+          "shashank-singh-pbks",
+          "vishal-nishad-pbks",
+          "vishnu-vinod-pbks",
+          "vyshak-vijaykumar-pbks",
+          "xavier-bartlett-pbks",
+          "yash-thakur-pbks",
+          "yuzvendra-chahal-pbks",
+          "blessing-muzarabani-rcb",
+          "devdutt-padikkal-rcb",
+          "jacob-bethell-rcb",
+          "jitesh-sharma-rcb",
+          "jordan-cox-rcb",
+          "josh-philippe-rcb",
+          "krunal-pandya-rcb",
+          "lungi-ngidi-rcb",
+          "manoj-bhandage-rcb",
+          "nuwan-thushara-rcb",
+          "rajat-patidar-rcb",
+          "rasikh-salam-rcb",
+          "romario-shepherd-rcb",
+          "suyash-sharma-rcb",
+          "swastik-chikara-rcb",
+          "tim-david-rcb",
+          "venkatesh-iyer-rcb",
+          "vicky-ostwal-rcb",
+          "yash-dayal-rcb",
+          "aman-rao-rr",
+          "brijesh-sharma-rr",
+          "dhruv-jurel-rr",
+          "donovan-ferreira-rr",
+          "kuldeep-sen-rr",
+          "kwena-maphaka-rr",
+          "lhuan-dre-pretorius-rr",
+          "nandre-burger-rr",
+          "navdeep-saini-rr",
+          "ravi-bishnoi-rr",
+          "ravi-singh-rr",
+          "riyan-parag-rr",
+          "sam-curran-rr",
+          "sandeep-sharma-rr",
+          "shimron-hetmyer-rr",
+          "shubham-dubey-rr",
+          "sushant-mishra-rr",
+          "tushar-deshpande-rr",
+          "vaibhav-suryavanshi-rr",
+          "vignesh-puthur-rr",
+          "yash-raj-punja-rr",
+          "yudhvir-singh-charak-rr",
+          "amit-kumar-srh",
+          "aniket-verma-srh",
+          "brydon-carse-srh",
+          "eshan-malinga-srh",
+          "harsh-dubey-srh",
+          "harshal-patel-srh",
+          "ishan-kishan-srh",
+          "jack-edwards-srh",
+          "jaydev-unadkat-srh",
+          "kamindu-mendis-srh",
+          "krains-fuletra-srh",
+          "nitish-kumar-reddy-srh",
+          "onkar-tarmale-srh",
+          "praful-hinge-srh",
+          "sakib-hussain-srh",
+          "salil-arora-srh",
+          "shivam-mavi-srh",
+          "shivang-kumar-srh",
+          "t-natarajan-srh",
+          "zeeshan-ansari-srh"
+        ],
+        "currentPlayerId": "trent-boult-mi",
+        "currentBid": {
+          "amount": 50000000,
+          "bidderMemberId": null,
+          "bidderTeamName": null
+        },
+        "passedMemberIds": [],
+        "soldPlayerIds": [
+          "sai-sudharsan-gt",
+          "abhishek-sharma-srh"
+        ],
+        "unsoldPlayerIds": [
+          "abhishek-sharma-srh"
+        ],
+        "expiresAt": "2026-03-25T11:56:25.539Z",
+        "history": [
+          {
+            "id": "2c8b3132-55e4-4257-8578-39299aed23cd",
+            "type": "bid",
+            "playerId": "sai-sudharsan-gt",
+            "memberId": "8c196a79-1107-4bfe-9ded-f9626ee7b22b",
+            "teamName": "Ashu XI",
+            "amount": 50000000,
+            "timestamp": "2026-03-25T11:56:10.333Z"
+          },
+          {
+            "id": "e7dfbf20-4340-4dd4-87a7-e5c54bb10a73",
+            "type": "pass",
+            "playerId": "sai-sudharsan-gt",
+            "memberId": "39779be3-4a6f-45f0-ab40-a27a8aee71ca",
+            "teamName": "Rohit XI",
+            "timestamp": "2026-03-25T11:56:10.370Z"
+          },
+          {
+            "id": "1dca594d-162f-4f58-815a-44732b54b97c",
+            "type": "pass",
+            "playerId": "sai-sudharsan-gt",
+            "memberId": "8c196a79-1107-4bfe-9ded-f9626ee7b22b",
+            "teamName": "Ashu XI",
+            "timestamp": "2026-03-25T11:56:10.396Z"
+          },
+          {
+            "id": "0fe04f5d-3c23-4661-a144-ea9e9fddac7b",
+            "type": "sold",
+            "playerId": "sai-sudharsan-gt",
+            "playerName": "Sai Sudharsan",
+            "winnerMemberId": "8c196a79-1107-4bfe-9ded-f9626ee7b22b",
+            "winnerTeamName": "Ashu XI",
+            "amount": 50000000,
+            "reason": "all-passed",
+            "timestamp": "2026-03-25T11:56:10.396Z"
+          },
+          {
+            "id": "77e7bfa7-4bd9-4c8d-9c89-68999be28f5f",
+            "type": "bid",
+            "playerId": "abhishek-sharma-srh",
+            "memberId": "39779be3-4a6f-45f0-ab40-a27a8aee71ca",
+            "teamName": "Rohit XI",
+            "amount": 50000000,
+            "timestamp": "2026-03-25T11:56:10.431Z"
+          },
+          {
+            "id": "1ef9ce5c-c4bd-405e-bd7e-ef3ebf0bd317",
+            "type": "pass",
+            "playerId": "abhishek-sharma-srh",
+            "memberId": "8c196a79-1107-4bfe-9ded-f9626ee7b22b",
+            "teamName": "Ashu XI",
+            "timestamp": "2026-03-25T11:56:10.456Z"
+          },
+          {
+            "id": "79eb1534-55ed-4c63-80ab-b46419bb0da7",
+            "type": "pass",
+            "playerId": "abhishek-sharma-srh",
+            "memberId": "39779be3-4a6f-45f0-ab40-a27a8aee71ca",
+            "teamName": "Rohit XI",
+            "timestamp": "2026-03-25T11:56:10.478Z"
+          },
+          {
+            "id": "28766148-a665-4b68-b0ae-2e1c2732af87",
+            "type": "sold",
+            "playerId": "abhishek-sharma-srh",
+            "playerName": "Abhishek Sharma",
+            "winnerMemberId": "39779be3-4a6f-45f0-ab40-a27a8aee71ca",
+            "winnerTeamName": "Rohit XI",
+            "amount": 50000000,
+            "reason": "all-passed",
+            "timestamp": "2026-03-25T11:56:10.478Z"
+          },
+          {
+            "id": "574a057e-0f3a-451c-b1da-90033157e19b",
+            "type": "pass",
+            "playerId": "mohammed-siraj-gt",
+            "memberId": "8c196a79-1107-4bfe-9ded-f9626ee7b22b",
+            "teamName": "Ashu XI",
+            "timestamp": "2026-03-25T11:56:10.516Z"
+          },
+          {
+            "id": "4cf59ebb-55f1-4e9d-bba9-1ec95d03a9b9",
+            "type": "pass",
+            "playerId": "mohammed-siraj-gt",
+            "memberId": "39779be3-4a6f-45f0-ab40-a27a8aee71ca",
+            "teamName": "Rohit XI",
+            "timestamp": "2026-03-25T11:56:10.538Z"
+          },
+          {
+            "id": "e549cceb-b631-4cec-a9e0-225b8f686bd6",
+            "type": "unsold",
+            "playerId": "mohammed-siraj-gt",
+            "playerName": "Mohammed Siraj",
+            "reason": "all-passed",
+            "timestamp": "2026-03-25T11:56:10.538Z"
+          },
+          {
+            "id": "fe1349a2-61d1-42c4-9326-2250c5f40ae7",
+            "type": "market-swap",
+            "memberId": "8c196a79-1107-4bfe-9ded-f9626ee7b22b",
+            "teamName": "Ashu XI",
+            "outgoingPlayerId": "abhishek-sharma-srh",
+            "incomingPlayerId": "mohammed-siraj-gt",
+            "timestamp": "2026-03-25T11:56:10.677Z"
+          }
+        ]
+      },
+      "pendingTrades": [
+        {
+          "id": "8d7d2be5-a3fd-418e-9ee1-8c105c68304c",
+          "status": "accepted",
+          "proposerMemberId": "8c196a79-1107-4bfe-9ded-f9626ee7b22b",
+          "partnerMemberId": "39779be3-4a6f-45f0-ab40-a27a8aee71ca",
+          "offeredPlayerIds": [
+            "sai-sudharsan-gt"
+          ],
+          "requestedPlayerIds": [
+            "abhishek-sharma-srh"
+          ],
+          "createdAt": "2026-03-25T11:56:10.585Z",
+          "resolvedAt": "2026-03-25T11:56:10.614Z"
         }
       ]
     }
