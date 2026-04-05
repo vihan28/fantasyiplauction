@@ -86,6 +86,14 @@ function ensureDb() {
     db.meta = createDefaultDb().meta;
     changed = true;
   }
+  if (db.meta.startingBudget !== STARTING_BUDGET) {
+    db.meta.startingBudget = STARTING_BUDGET;
+    changed = true;
+  }
+  if (db.meta.startingBudgetCrore !== 100) {
+    db.meta.startingBudgetCrore = 100;
+    changed = true;
+  }
   if (!db.meta.minTeamComposition) {
     db.meta.minTeamComposition = createDefaultDb().meta.minTeamComposition;
     changed = true;
@@ -113,6 +121,24 @@ function ensureDb() {
     db.leagues = [];
     changed = true;
   }
+
+  db.leagues.forEach((league) => {
+    if (!Array.isArray(league.members)) {
+      return;
+    }
+
+    league.members.forEach((member) => {
+      const totalSpent = Array.isArray(member.roster)
+        ? member.roster.reduce((sum, entry) => sum + Number(entry.purchasePrice || 0), 0)
+        : 0;
+      const nextBudgetRemaining = Math.max(0, STARTING_BUDGET - totalSpent);
+
+      if (member.budgetRemaining !== nextBudgetRemaining) {
+        member.budgetRemaining = nextBudgetRemaining;
+        changed = true;
+      }
+    });
+  });
 
   if (changed) {
     fs.writeFileSync(DB_PATH, JSON.stringify(db, null, 2));

@@ -2,7 +2,11 @@ import { Panel } from "../../components/ui/Panel";
 import { StatCard } from "../../components/ui/StatCard";
 
 function formatCurrency(value) {
-  return `₹${Number(value || 0).toLocaleString("en-IN")}`;
+  return `Rs.${Number(value || 0).toLocaleString("en-IN")}`;
+}
+
+function formatCrore(value) {
+  return `${(Number(value || 0) / 10000000).toFixed(2)} Cr`;
 }
 
 export function AuctionView({
@@ -20,6 +24,11 @@ export function AuctionView({
   const canStart = league.ownerMemberId === me.id && auction.status === "pending" && snapshot.members.length >= 2;
   const leading = auction.currentBid.bidderMemberId === me.id;
   const tierEntries = Object.entries(playersByTier);
+  const minComposition = snapshot.config.minTeamComposition || {
+    wicketkeepers: 1,
+    batters: 3,
+    bowlers: 3
+  };
 
   return (
     <div className="grid gap-6">
@@ -126,6 +135,34 @@ export function AuctionView({
           </div>
         </Panel>
       </div>
+
+      <Panel
+        title="Team Building Rules"
+        subtitle="Every team gets the same budget and must finish with a valid 11-player squad"
+      >
+        <div className="grid gap-3 md:grid-cols-2 xl:grid-cols-4">
+          <div className="rounded-3xl border border-stone-200 bg-white/70 p-4">
+            <p className="text-xs uppercase tracking-[0.2em] text-slate-400">Starting Budget</p>
+            <p className="mt-2 text-lg font-semibold text-slate-900">{formatCrore(snapshot.config.startingBudget)}</p>
+          </div>
+          <div className="rounded-3xl border border-stone-200 bg-white/70 p-4">
+            <p className="text-xs uppercase tracking-[0.2em] text-slate-400">Team Size</p>
+            <p className="mt-2 text-lg font-semibold text-slate-900">{snapshot.config.teamSize} players</p>
+          </div>
+          <div className="rounded-3xl border border-stone-200 bg-white/70 p-4">
+            <p className="text-xs uppercase tracking-[0.2em] text-slate-400">Minimum Roles</p>
+            <p className="mt-2 text-sm text-slate-700">
+              WK {minComposition.wicketkeepers}, BAT {minComposition.batters}, BOWL {minComposition.bowlers}
+            </p>
+          </div>
+          <div className="rounded-3xl border border-stone-200 bg-white/70 p-4">
+            <p className="text-xs uppercase tracking-[0.2em] text-slate-400">Auction Rules</p>
+            <p className="mt-2 text-sm text-slate-700">
+              15s timer, private pass, tier-first nomination, and auction stops when all teams are full.
+            </p>
+          </div>
+        </div>
+      </Panel>
 
       <Panel
         title="Categorized Player Pool"
