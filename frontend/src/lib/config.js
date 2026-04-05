@@ -1,4 +1,5 @@
 const configuredBaseUrl = import.meta.env.VITE_API_BASE_URL;
+export const PREVIEW_MODE = import.meta.env.VITE_FRONTEND_ONLY_PREVIEW === "true";
 
 function getDefaultApiBaseUrl() {
   if (typeof window === "undefined") {

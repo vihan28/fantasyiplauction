@@ -2,7 +2,7 @@ import { useMemo, useState } from "react";
 import { Panel } from "../../components/ui/Panel";
 import { api } from "../../lib/api";
 
-export function TradeView({ snapshot, session, onSnapshot, onError, onSuccess }) {
+export function TradeView({ snapshot, session, onSnapshot, onError, onSuccess, previewMode = false }) {
   const [partnerMemberId, setPartnerMemberId] = useState("");
   const [offeredPlayerId, setOfferedPlayerId] = useState("");
   const [requestedPlayerId, setRequestedPlayerId] = useState("");
@@ -20,6 +20,10 @@ export function TradeView({ snapshot, session, onSnapshot, onError, onSuccess })
 
   async function proposeTrade(event) {
     event.preventDefault();
+    if (previewMode) {
+      onSuccess("Frontend preview only. Live trade requests will work after the backend is connected.");
+      return;
+    }
     setLoading(true);
     try {
       const next = await api(`/api/leagues/${session.leagueCode}/trades`, {
@@ -41,6 +45,10 @@ export function TradeView({ snapshot, session, onSnapshot, onError, onSuccess })
   }
 
   async function respondToTrade(tradeId, decision) {
+    if (previewMode) {
+      onSuccess("Frontend preview only. Trade actions are disabled in this demo.");
+      return;
+    }
     setLoading(true);
     try {
       const next = await api(`/api/leagues/${session.leagueCode}/trades/${tradeId}/respond`, {
@@ -104,7 +112,7 @@ export function TradeView({ snapshot, session, onSnapshot, onError, onSuccess })
             disabled={loading || !partnerMemberId || !offeredPlayerId || !requestedPlayerId}
             className="rounded-2xl bg-slate-900 px-4 py-3 font-medium text-white disabled:opacity-50"
           >
-            Send trade
+            {previewMode ? "Preview only" : "Send trade"}
           </button>
         </form>
       </Panel>

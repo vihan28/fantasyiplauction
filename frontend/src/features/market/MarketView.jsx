@@ -2,13 +2,17 @@ import { useState } from "react";
 import { Panel } from "../../components/ui/Panel";
 import { api } from "../../lib/api";
 
-export function MarketView({ snapshot, session, onSnapshot, onError, onSuccess }) {
+export function MarketView({ snapshot, session, onSnapshot, onError, onSuccess, previewMode = false }) {
   const [outgoingPlayerId, setOutgoingPlayerId] = useState("");
   const [incomingPlayerId, setIncomingPlayerId] = useState("");
   const [loading, setLoading] = useState(false);
 
   async function submitSwap(event) {
     event.preventDefault();
+    if (previewMode) {
+      onSuccess("Frontend preview only. Market swaps will work after the backend is connected.");
+      return;
+    }
     setLoading(true);
     try {
       const next = await api(`/api/leagues/${session.leagueCode}/market/swaps`, {
@@ -77,7 +81,7 @@ export function MarketView({ snapshot, session, onSnapshot, onError, onSuccess }
             disabled={loading || !outgoingPlayerId || !incomingPlayerId}
             className="rounded-2xl bg-teal-700 px-4 py-3 font-medium text-white disabled:opacity-50"
           >
-            Confirm swap
+            {previewMode ? "Preview only" : "Confirm swap"}
           </button>
         </form>
       </Panel>

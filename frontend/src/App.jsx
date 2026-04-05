@@ -1,7 +1,8 @@
 import { useEffect, useMemo, useState } from "react";
 import { io } from "socket.io-client";
-import { API_BASE_URL } from "./lib/config";
+import { API_BASE_URL, PREVIEW_MODE } from "./lib/config";
 import { api } from "./lib/api";
+import { PREVIEW_SESSION, PREVIEW_SNAPSHOT } from "./lib/preview-data";
 import { clearSession, loadSession, saveSession } from "./lib/storage";
 import { AuthScreen } from "./features/auth/AuthScreen";
 import { AuctionView } from "./features/auction/AuctionView";
@@ -32,20 +33,24 @@ function useCountdown(expiresAt) {
   return countdown;
 }
 
+function previewMessage() {
+  return "Frontend preview only. Connect the backend later to create leagues and run the live auction.";
+}
+
 export default function App() {
-  const [session, setSession] = useState(() => loadSession());
-  const [snapshot, setSnapshot] = useState(null);
+  const [session, setSession] = useState(() => (PREVIEW_MODE ? PREVIEW_SESSION : loadSession()));
+  const [snapshot, setSnapshot] = useState(() => (PREVIEW_MODE ? PREVIEW_SNAPSHOT : null));
   const [activeTab, setActiveTab] = useState("auction");
   const [loading, setLoading] = useState(false);
   const [actionLoading, setActionLoading] = useState(false);
-  const [message, setMessage] = useState("");
+  const [message, setMessage] = useState(PREVIEW_MODE ? previewMessage() : "");
   const [error, setError] = useState("");
   const [bidAmount, setBidAmount] = useState("");
 
   const countdown = useCountdown(snapshot?.auction?.expiresAt);
 
   useEffect(() => {
-    if (!session) return undefined;
+    if (PREVIEW_MODE || !session) return undefined;
 
     const socket = io(API_BASE_URL, { transports: ["websocket"] });
     socket.emit("league:join", {
@@ -69,7 +74,7 @@ export default function App() {
   }, [session]);
 
   useEffect(() => {
-    if (!session) return;
+    if (PREVIEW_MODE || !session) return;
 
     api(`/api/leagues/${session.leagueCode}?memberId=${session.memberId}`)
       .then(setSnapshot)
@@ -87,10 +92,15 @@ export default function App() {
 
   const title = useMemo(() => {
     if (!snapshot?.league) return "Fantasy IPL Auction";
-    return `${snapshot.league.name} • ${snapshot.league.code}`;
+    return `${snapshot.league.name} | ${snapshot.league.code}`;
   }, [snapshot]);
 
   async function handleCreate(values) {
+    if (PREVIEW_MODE) {
+      setMessage(previewMessage());
+      return;
+    }
+
     setLoading(true);
     setError("");
     try {
@@ -110,6 +120,11 @@ export default function App() {
   }
 
   async function handleJoin(values) {
+    if (PREVIEW_MODE) {
+      setMessage(previewMessage());
+      return;
+    }
+
     setLoading(true);
     setError("");
     try {
@@ -129,6 +144,11 @@ export default function App() {
   }
 
   async function handleStartAuction() {
+    if (PREVIEW_MODE) {
+      setMessage(previewMessage());
+      return;
+    }
+
     setActionLoading(true);
     setError("");
     try {
@@ -146,6 +166,11 @@ export default function App() {
   }
 
   async function handleDeleteLeague() {
+    if (PREVIEW_MODE) {
+      setMessage(previewMessage());
+      return;
+    }
+
     const confirmed = window.confirm(
       `Delete league ${snapshot.league.name} (${snapshot.league.code})? This cannot be undone.`
     );
@@ -170,6 +195,11 @@ export default function App() {
   }
 
   async function emitAuctionEvent(event, payload, successMessage) {
+    if (PREVIEW_MODE) {
+      setMessage(previewMessage());
+      return;
+    }
+
     setActionLoading(true);
     setError("");
 
@@ -225,10 +255,12 @@ export default function App() {
         <header className="mb-6 rounded-[2.5rem] border border-white/50 bg-white/70 p-6 shadow-2xl shadow-stone-200/70 backdrop-blur">
           <div className="flex flex-col gap-4 xl:flex-row xl:items-center xl:justify-between">
             <div>
-              <p className="text-sm uppercase tracking-[0.3em] text-orange-700">Live IPL Only</p>
+              <p className="text-sm uppercase tracking-[0.3em] text-orange-700">
+                {PREVIEW_MODE ? "Frontend Preview" : "Live IPL Only"}
+              </p>
               <h1 className="mt-2 font-serif text-4xl font-semibold tracking-tight">{title}</h1>
               <p className="mt-2 text-sm text-slate-600">
-                {snapshot.me.teamName} • {snapshot.me.userName} • {snapshot.league.status}
+                {snapshot.me.teamName} | {snapshot.me.userName} | {snapshot.league.status}
               </p>
             </div>
             <div className="flex flex-wrap gap-3">
@@ -243,7 +275,7 @@ export default function App() {
               >
                 Copy Code
               </button>
-              {snapshot.league.ownerMemberId === session.memberId ? (
+              {!PREVIEW_MODE && snapshot.league.ownerMemberId === session.memberId ? (
                 <button
                   type="button"
                   onClick={handleDeleteLeague}
@@ -253,17 +285,19 @@ export default function App() {
                   Delete League
                 </button>
               ) : null}
-              <button
-                type="button"
-                onClick={() => {
-                  clearSession();
-                  setSnapshot(null);
-                  setSession(null);
-                }}
-                className="rounded-2xl bg-slate-900 px-4 py-3 text-sm font-medium text-white shadow"
-              >
-                Leave Session
-              </button>
+              {!PREVIEW_MODE ? (
+                <button
+                  type="button"
+                  onClick={() => {
+                    clearSession();
+                    setSnapshot(null);
+                    setSession(null);
+                  }}
+                  className="rounded-2xl bg-slate-900 px-4 py-3 text-sm font-medium text-white shadow"
+                >
+                  Leave Session
+                </button>
+              ) : null}
             </div>
           </div>
         </header>
@@ -314,6 +348,7 @@ export default function App() {
             onSnapshot={setSnapshot}
             onError={setError}
             onSuccess={setMessage}
+            previewMode={PREVIEW_MODE}
           />
         ) : null}
         {activeTab === "trade" ? (
@@ -323,6 +358,7 @@ export default function App() {
             onSnapshot={setSnapshot}
             onError={setError}
             onSuccess={setMessage}
+            previewMode={PREVIEW_MODE}
           />
         ) : null}
         {activeTab === "leaderboard" ? <LeaderboardView snapshot={snapshot} /> : null}
